@@ -1,0 +1,7 @@
+services:
+    api:
+        build: ../api/
+        ports:
+            - "80:80"
+    content:
+        build: ../content
