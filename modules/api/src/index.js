@@ -14,6 +14,7 @@ app.get('/healthz', (_req, res) => {
 });
 
 // ...
+console.log('Hello Pipeline!');
 
 const server = app.listen(env.port, () => {
     console.log(`Listening on port ${env.port}`)
